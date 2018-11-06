@@ -1,1 +1,2 @@
-# OCR-Speech (matlab) hahahaha
+<<<<<<< HEAD
+# OCR-Speech (matlab)
