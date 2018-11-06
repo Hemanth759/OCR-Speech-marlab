@@ -1,2 +1,2 @@
-<<<<<<< HEAD
 # OCR-Speech (matlab)
+hello
