@@ -21,3 +21,10 @@ figure();
 imshow(image);
 title('Image after converting into gray scale:');
 
+% Convert to BW
+threshold = graythresh(image);
+image =~im2bw(image,threshold);
+figure();
+imshow(image);
+title('Image after converting into Black and white:');
+
