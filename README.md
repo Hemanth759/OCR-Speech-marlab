@@ -1,3 +1,2 @@
 # OCR-Speech (matlab)
-
-added text
+## Takes image with text on it and converts it into text through OCR and converts it into speech
