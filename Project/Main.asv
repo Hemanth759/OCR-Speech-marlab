@@ -31,15 +31,7 @@ title('Image after converting into Black and white:');
 % Remove all object containing fewer than 20 pixels
 figure();
 imshow(image);
-image = bwareaopen(image,15);
+image = bwareaopen(image,120);
 figure();
 imshow(image);
 title('After removing all objects fewer tha 20 pixels:');
-
-%Storage matrix word from image
-word=[ ];
-re=image;
-image = image - bwareaopen(image,70000);
-figure();
-imshow(image);
-title('Did something');
