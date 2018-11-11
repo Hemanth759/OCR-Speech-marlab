@@ -45,3 +45,6 @@ title('After removing all objects fewer tha 15 pixels:');
 %Storage matrix word from image
 word=[ ];
 re=image;
+
+load templates
+global templates
